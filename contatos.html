@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos | Mesa Posta - Blog de Jogos de Tabuleiro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">&#9856;</span>
+      <div>
+        <p class="site-name">Mesa Posta</p>
+        <p class="tagline">Blog de jogos de tabuleiro</p>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="estrategia.html">Estratégia</a></li>
+        <li><a href="cooperativos.html">Cooperativos</a></li>
+        <li><a href="classicos.html">Clássicos</a></li>
+        <li><a href="contatos.html" aria-current="page">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="content">
+      <header class="page-head">
+        <h1>Contatos</h1>
+        <p class="lead">Quer sugerir um jogo, enviar uma dúvida ou propor uma parceria? Escreva para nós.</p>
+      </header>
+      <section>
+        <h2>Envie uma mensagem</h2>
+        <form class="contact-form" action="#" method="post">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required>
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto">
+            <option>Sugestão de jogo</option>
+            <option>Dúvida sobre regras</option>
+            <option>Parceria</option>
+            <option>Outro</option>
+          </select>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mesa Posta &middot; Blog de jogos de tabuleiro &middot; 2026</p>
+    <p><a href="contatos.html">Fale com a gente</a></p>
+  </footer>
+</body>
+</html>
