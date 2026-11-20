@@ -107,8 +107,9 @@ h2 { font-size: 1.5rem; margin-top: 2rem; }
 }
 .contact-form button:hover { background: var(--dourado); color: var(--azul); }
 .site-footer {
-  background: var(--azul);
-  color: var(--branco);
+  position: relative;
+  background: #1f3a5e;
+  color: #ffffff;
   text-align: center;
   padding: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -120,4 +121,12 @@ h2 { font-size: 1.5rem; margin-top: 2rem; }
   .site-header { padding: 1rem; }
   h1 { font-size: 1.8rem; }
   .main-nav a { font-size: 0.85rem; padding: 0.35rem 0.6rem; }
+}
+.marca {
+  position: absolute;
+  bottom: 15px;
+  right: 80px;
+  margin: 0;
+  font-size: 0.75rem;
+  color: #ffffff;
 }
